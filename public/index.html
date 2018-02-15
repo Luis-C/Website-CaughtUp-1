@@ -51,12 +51,14 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
           </header>
           <span class="image"><img src="images/logo.png" alt="" /></span>
         </div>
-        <a href="#one" class="goto-next scrolly">Next</a>
+        <a href="#zero" class="goto-next scrolly">Next</a>
       </section>
 
-      <!-- One -->
-      <section id="one" class="spotlight style1 bottom">
+      <!-- Zero -->
+      <section id="zero" class="spotlight style1 bottom">
         <span class="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+        <!-- TODO: The video should be moved to the background of the section
+        rather than being where text is located -->
         <div class="content">
           <div class="container" >
             <div align="middle">
@@ -65,20 +67,32 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
               </header>
               <p>All in one scheduling and messaging app. <br>
                 Share your flexible time with friends so they know when you
-                can hangout.<br>
-                Find out which friends are available to grab lunch. Avoid the needless back and forth.<br>
+                can hangout.
+                <br>
+                Find out which friends are available to grab lunch. Avoid the needless back and forth.
+                <br>
               </p>
-
-              <!-- TODO: The video should be moved to the background of the section
-              rather than being where text is located -->
-              <iframe
-              src="https://www.youtube.com/embed/bH72ApFFXtQ?rel=0" target="_blank" allowfullscreen width="560" height="315" align="middle">
-            </iframe>
-
+            </div>
           </div>
-          <!-- Adding Youtube video -->
-          <!-- Current iteration shows the video very small-->
+        </div>
+        <a href="#one" class="goto-next scrolly">Next</a>
+      </section>
 
+      <!-- One -->
+      <section id="one" class="spotlight style1 bottom">
+        <!-- <span class="image fit main"><img src="images/pic02.jpg" alt="" /></span> -->
+        <!-- TODO: The video should be moved to the background of the section
+        rather than being where text is located -->
+        <div class="content">
+          <div class="container" >
+            <div align="middle">
+              <!-- Adding Youtube video -->
+              <!-- Current iteration shows the video very small-->
+              <iframe
+              id="promoVideo" src="https://www.youtube.com/embed/bH72ApFFXtQ?rel=0"
+              target="_blank" allowfullscreen width="560" height="315" align="middle">
+            </iframe>
+          </div>
         </div>
       </div>
       <a href="#two" class="goto-next scrolly">Next</a>
@@ -98,17 +112,16 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
           to improve on the application.
         </p>
 
-
-        <!--  QR to playstore-->
-        <!-- Static size -->
-        <img src="images/playstoreQR.jpg" alt="" align="middle" width="250" height="250">
-
-        <ul class="actions">
-
-          <li><a href="https://play.google.com/store/apps/details?id=com.caughtup.android" target="_blank" class="button">Google Play Store</a></li>
-
-        </ul>
+        <div align="middle">
+          <!--  QR to playstore-->
+          <!-- Static size -->
+          <img src="images/playstoreQR.jpg" alt="" align="middle" width="250" height="250">
+          <ul class="actions">
+            <li><a href="https://play.google.com/store/apps/details?id=com.caughtup.android" target="_blank" class="button">Google Play Store</a></li>
+          </ul>
+        </div>
       </div>
+
       <a href="#three" class="goto-next scrolly">Next</a>
     </section>
 
@@ -123,10 +136,17 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <p>
           Will be out on beta some time in February 2018.
         </p>
-        <ul class="actions">
-          <li><a href="https://www.apple.com/itunes/" target="_blank" class="button">iTunes</a></li>
-        </ul>
+
+        <div align="middle">
+          <!--  QR to playstore-->
+          <!-- Static size -->
+          <!-- <img src="images/playstoreQR.jpg" alt="" align="middle" width="250" height="250"> -->
+          <ul class="actions">
+            <li><a href="https://www.apple.com/itunes/" target="_blank" class="button">iTunes</a></li>
+          </ul>
+        </div>
       </div>
+
       <a href="#four" class="goto-next scrolly">Next</a>
     </section>
 
@@ -187,19 +207,20 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
               <h2>CaughtUp is competing in the VT E-Challenge!</h2>
             </header>
 
-            <img src="images/vtEChallenge.png" alt="" />
+            <a href="https://apex.vt.edu/entrepreneurchallenge/" target="_blank" class="image fit"><img src="images/vtEChallenge.png" alt="" /></a>
 
+            <p>
               This year, we are competing in the Virginia Tech Entrepreneur
               Challenge. We are trying to win up to $60,000 so we can trademark,
               pay our team, and establish ourselves as a startup company! Please
               SIGN UP so we can tell you when the public voting phase of the
               competition begins!
             </p>
+          </div>
         </div>
       </div>
-    </div>
-    <a href="#six" class="goto-next scrolly">Next</a>
-  </section>
+      <a href="#six" class="goto-next scrolly">Next</a>
+    </section>
 
     <!-- Six -->
     <section id="six" class="wrapper style2 special fade">
