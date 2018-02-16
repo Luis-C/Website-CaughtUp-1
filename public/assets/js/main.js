@@ -15,7 +15,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	});
 
 	$(function() {
-		
+
 		var	$window = $(window),
 		$body = $('body');
 
@@ -251,7 +251,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		// fix promo video on mobile (jmerizia)
 		var promoVideo = document.getElementById("promoVideo");
 		var promoVideoRatio = promoVideo.height / promoVideo.width;
-		promoVideo.width = window.innerWidth * 0.8 - 30;
+		promoVideo.width = (window.innerWidth * 0.8) - 30;
 		promoVideo.height = Math.floor(promoVideo.width * promoVideoRatio);
 		// end fix video on mobile
 
