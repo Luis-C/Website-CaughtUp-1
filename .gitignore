@@ -1,0 +1,5 @@
+
+# Firebase hosting files
+.firebaserc
+.firebase/
+firebase.json
