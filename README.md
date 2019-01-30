@@ -16,3 +16,4 @@ URL to Deployed Website: https://www.caughtup-app.com/
 # Journal
 - 2019.01.08 Updated readme to include notes, environment, reference, and journal section
 - 2019.01.24 Removed Firebase Hosting files & added .gitignore
+- 2019.30.01 Added Team Page + Minor fixes
