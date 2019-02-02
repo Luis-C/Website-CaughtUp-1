@@ -4,6 +4,9 @@ This is the website for the CaughtUp Crossplatform Mobile Application.
 
 URL to Deployed Website: https://www.caughtup-app.com/
 
+## Latest Showcase Video: 
+[![Latest Showcase](https://img.youtube.com/vi/LMfPok8pVs0/0.jpg)](https://www.youtube.com/watch?v=LMfPok8pVs0)
+
 # Notes
 - 
 
