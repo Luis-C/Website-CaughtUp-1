@@ -11,7 +11,7 @@ URL to Deployed Website: https://www.caughtup-app.com/
 - 
 
 # Environment
-- This is a Javascript, html, css website. We primarily use Visual Studio Code while making changes to it: https://code.visualstudio.com/
+- This is a Javascript, html, css website. We are using [Visual Studio Code](https://code.visualstudio.com/) to make changes to it.
 
 # References
 - Initial Project Template Design From: https://html5up.net/
