@@ -24,3 +24,4 @@ URL to Deployed Website: https://www.caughtup-app.com/
 - 2019.02.11 Updated Promo Video Link to new Promo Video
 - 2019.02.23 Updated Pitch Deck & Executive summary on website
 - 2019.03.04 Added Josh Sutton to Team members page and updated email listing sign up to MailChimp url
+- 2019.03.23 Moved Download buttons to top of page with responsive UI, updated Frequently Asked Questions to Questions & Updated Questions, Updated Stephen's profile photo.
