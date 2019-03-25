@@ -4122,8 +4122,8 @@ Used on design page.
 .iframe-container {
   overflow: visible;
   position: relative;
-    width:  100%;
-    height: 40em;
+    width:  90%;
+    height: 30em;
 } @media screen and (max-width: 425px) {
     .iframe-container {
         height: 10em;
