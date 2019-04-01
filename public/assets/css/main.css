@@ -3197,7 +3197,6 @@ Used on design page.
 	.wrapper {
 		padding: 6em 0 4em 0;
 	}
-
 		.wrapper.style2 {
 			background: #F99410;
 		}
@@ -3222,6 +3221,7 @@ Used on design page.
 				color: #ffffff !important;
 			}
 
+			.wrapper.style2 input[type="submit"]:active,
 			.wrapper.style2 input[type="submit"]:active,
 			.wrapper.style2 input[type="reset"]:active,
 			.wrapper.style2 input[type="button"]:active,
@@ -3255,6 +3255,11 @@ Used on design page.
 				.wrapper.style2 .button.special:active {
 					background-color: rgba(255, 255, 255, 0.25) !important;
 				}
+
+        .wrapper.full {
+                height: 100vh;
+                position: relative;
+            }
 
 		.wrapper.fade-down > .container {
 			-moz-transform: translate(0,0);
@@ -4120,17 +4125,27 @@ Used on design page.
 /* iframe */
 
 .iframe-container {
-  overflow: visible;
   position: relative;
-    width:  90%;
-    height: 30em;
-} @media screen and (max-width: 425px) {
+    margin: auto;
+    width:  100vh;
+    height: 56.25vh;
+} @media screen and (max-height: 500px){
     .iframe-container {
-        height: 10em;
+        max-height: 40vh;
+    }
+} @media screen and (max-width: 900px) {
+    .iframe-container {
+        position: relative;
+        margin: auto;
+    }
+} @media screen and (max-width: 2000px) {
+    .iframe-container {
+        max-width: 100%;
+/*        max-height: 68vh;*/
     }
 }
  
-.iframe-container iframe {   
+.iframe-container iframe {
    height: 100%;
     width: 100%;
    position: relative;
