@@ -2,4 +2,8 @@
 # Firebase hosting files
 .firebaserc
 .firebase/
-firebase.json
+.firebase/hosting.cHVibGlj.cache
+
+# BFG Cleaner to remove sensative information from GitHistory
+bfg-1.13.0.jar
+bfgpasswords.txt
